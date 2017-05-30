@@ -1,0 +1,22 @@
+<html>
+<head>
+	<link rel="stylesheet" href="borders.css"/>
+</head>
+<header>General Purpose Sequence Memorization Tool</header>
+	
+<body>
+<textarea id="catagory">Category is?</textarea>
+<p></p>
+<textarea id="sequence">Type sequence with commas seperating each item.</textarea>
+<button id="submit" onclick="run()">start</button>
+<br/>
+	<table id="memoryBlock" style="width:450px; visibility:hidden;"><tr><td>4</td></tr></table>
+<br/>
+	<button id="nextButton" onclick="omitRandomRow()" style="visibility:hidden;">next</button>
+<p></p>
+	<button id="resetButton" onclick="startOver()" style="visibility:hidden;">restart</button>
+	<button id="backButton" onclick="back()" style="visibility:hidden;">back</button>
+<script src="ui.js"></script>
+<script src="functionality.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+All files must be contained in the same folder which excludes other files for the program to run properly.
+The file called "index.html" is the file to open in order to start the program.
